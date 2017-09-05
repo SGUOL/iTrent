@@ -1,2 +1,2 @@
 # iTrent
-iTrent Data Load
+This repository is for the iTrent data load project.
