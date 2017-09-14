@@ -2,7 +2,7 @@ USE [iTLoads]
 GO
 SET ANSI_NULLS, QUOTED_IDENTIFIER ON
 GO
---- PST0001 is the POST_NO for the POST Leavers
+-- PST0001 is the POST_NO for the POST Leavers
 ALTER VIEW dbo.iT06_02_Create_Leaver_Positions_from_Post
 AS
 SELECT X.PER_REF_NO
