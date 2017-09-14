@@ -1,0 +1,13 @@
+USE iTLoads;
+GO
+SET ANSI_NULLS, QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW dbo.iT25_03_Student_Loans
+AS
+SELECT PER_REF_NO
+	,'Student Loans' AS ELEMENT_NAME
+	,StudentLoans AS INPUT_CASH
+	,'ELE' AS HISTORY_TYPE
+FROM dbo.PaySlipInfo
+WHERE StudentLoans > 0;
+GO
